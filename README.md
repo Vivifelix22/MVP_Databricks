@@ -21,9 +21,6 @@ Pipeline completo para análise de risco de crédito bancário utilizando Databr
 - `docs/`: Documentação detalhada do projeto
 - `screenshots/`: Capturas de tela do processo e resultados
 
-## Como Executar
-Consulte o guia de implementação em `docs/implementation-guide.md`
-
 ## Resultados Principais
 1. Características socioeconômicas que mais influenciam no risco de crédito:
    - Idade: Clientes mais jovens (18-24 anos) apresentam maior taxa de inadimplência
