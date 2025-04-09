@@ -57,17 +57,17 @@ Este catálogo descreve o modelo dimensional em Esquema Estrela criado para aná
 ## Observações de Qualidade de Dados
 
 ### Estrutura dos Dados
-![Estrutura do DataFrame](../screenshots/05_data_schema.png)
+![Estrutura do DataFrame](../screenshots/05_data_structure.png)
 
 ### Estatísticas Descritivas
-![Resumo estatístico](../screenshots/06_statistical_summary.png)
+![Resumo estatístico](../screenshots/06_statistic_resume.png)
 
 ### Análise de Valores Nulos
 ![Contagem de valores nulos](../screenshots/07_null_values.png)
-![Percentual de valores nulos](../screenshots/08_null_percent.png)
+![Percentual de valores nulos](../screenshots/08_percentage_null_values.png)
 
 ### Armazenamento em Delta Lake
-![Tabelas Delta](../screenshots/09_delta_tables.png)
+![Tabelas Delta](../screenshots/09_delta_table.png)
 
 * Os valores nulos foram identificados e tratados durante a fase de análise de qualidade
 * Para campos numéricos sem valores, foi aplicada a média ou mediana conforme adequado
