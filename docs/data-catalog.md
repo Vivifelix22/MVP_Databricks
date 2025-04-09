@@ -6,11 +6,11 @@
 * **Data de Extração**: Abril de 2025
 * **Formato Original**: CSV (Comma Separated Values)
 
-![Schema e amostra do dataset](screenshots/03_dataset.png)
+![Schema e amostra do dataset](../screenshots/03_dataset.png)
 
 ## Ambiente Computacional
-![Cluster Databricks](screenshots/01_compute.png)
-![Configuração do cluster](screenshots/02_cluster_config.png)
+![Cluster Databricks](../screenshots/01_compute.png)
+![Configuração do cluster](../screenshots/02_cluster_config.png)
 
 ## Modelo Dimensional
 Este catálogo descreve o modelo dimensional em Esquema Estrela criado para análise de risco de crédito bancário.
@@ -39,7 +39,7 @@ Este catálogo descreve o modelo dimensional em Esquema Estrela criado para aná
 | loan_percent_income | Double | Valor do empréstimo como percentual da renda anual | Número decimal | 0 - 1.0 (0 - 100%) |
 | loan_status | Integer | Status do empréstimo (1 = inadimplente, 0 = adimplente) | Binário | 0, 1 |
 
-![Valores únicos em colunas categóricas](screenshots/10_categorical_values.png)
+![Valores únicos em colunas categóricas](../screenshots/10_categorical_values.png)
 
 ### Tabela de Fatos - Análise de Crédito (fato_analise_credito)
 
@@ -57,17 +57,17 @@ Este catálogo descreve o modelo dimensional em Esquema Estrela criado para aná
 ## Observações de Qualidade de Dados
 
 ### Estrutura dos Dados
-![Estrutura do DataFrame](screenshots/05_data_schema.png)
+![Estrutura do DataFrame](../screenshots/05_data_schema.png)
 
 ### Estatísticas Descritivas
-![Resumo estatístico](screenshots/06_statistical_summary.png)
+![Resumo estatístico](../screenshots/06_statistical_summary.png)
 
 ### Análise de Valores Nulos
-![Contagem de valores nulos](screenshots/07_null_values.png)
-![Percentual de valores nulos](screenshots/08_null_percent.png)
+![Contagem de valores nulos](../screenshots/07_null_values.png)
+![Percentual de valores nulos](../screenshots/08_null_percent.png)
 
 ### Armazenamento em Delta Lake
-![Tabelas Delta](screenshots/09_delta_tables.png)
+![Tabelas Delta](../screenshots/09_delta_tables.png)
 
 * Os valores nulos foram identificados e tratados durante a fase de análise de qualidade
 * Para campos numéricos sem valores, foi aplicada a média ou mediana conforme adequado
