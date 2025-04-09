@@ -1,6 +1,3 @@
-## 4. self-assessment.md
-
-```markdown
 # Autoavaliação do Projeto de Análise de Risco de Crédito
 
 ## Atingimento dos Objetivos
