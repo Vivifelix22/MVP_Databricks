@@ -9,7 +9,7 @@
 ![Schema e amostra do dataset](../screenshots/03_dataset.png)
 
 ## Ambiente Computacional
-![Cluster Databricks](../screenshots/01_compute.png)
+![Cluster Databricks](../screenshots/01_cluster_config.png)
 ![Configuração do cluster](../screenshots/02_cluster_config.png)
 
 ## Modelo Dimensional
