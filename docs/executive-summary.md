@@ -38,10 +38,10 @@ Implementamos um modelo dimensional completo em esquema estrela para facilitar a
 ![Dimensão Cliente](../screenshots/11_data_dimension.png)
 
 ### Dimensão Empréstimo
-![Dimensão Empréstimo](../screenshots/12_loan_dimension.png)
+![Dimensão Empréstimo](../screenshots/12_.png)
 
 ### Dimensão Tempo
-![Dimensão Tempo](../screenshots/13_time_dimension.png)
+![Dimensão Tempo](../screenshots/13_time.png)
 
 ### Tabela de Fatos
 ![Tabela de Fatos](../screenshots/14_table_facts.png)
